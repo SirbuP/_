@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    <title>Abt</title>
+    <link rel="stylesheet" href="em.css">
+
+</head>
+<body>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/AjWfY7SnMBI?si=oa4hZiIwcH5bIkO1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <div class = "nav-bar">
+        <a href="#">home</a>
+        <a href="#">about</a>
+        <a href="#">contact</a>
+    </div>
+    <div class="content">
+    <h1>Titel</h1>
+    <p> <span class= "bold">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam reiciendis quibusdam accusantium assumenda illo. Doloremque, eius molestiae voluptatum quidem nisi iusto tempore sapiente eos, eaque beatae error eveniet delectus! Voluptate.</span></p>
+    </div>
+    <div class="footer">
+        contact me
+    </div>
+</body>
+</html>
