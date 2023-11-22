@@ -1,52 +1,24 @@
-.nav-bar{
-    background-color: lime;
-    color: black;
-    padding: 0;
-    margin: 0;
-}
-.nav-bar{
-    background-color: pink;
-        color: bisque;
-        padding: 20px;
-        text-align: center;
-}
-.footer{
-    background-color: yellowgreen;
-    color: red;
-    padding: 20px;
-    text-align: center;
-    height: 115px;
-}
-.content{
-    background-color: aliceblue;
-    padding: 20px;
-    margin: 10px;
-    height: 300px;
+p:hover {
+    color:yellowgreen;
+    font-weight: lighter;
 
 }
-.h1 {
-    text-align: center;
+
+p::before { 
+    content:"hi!";
+    color:palevioletred;
+    font-weight: bolder;
+
 
 }
-.bold {
-    font-weight: bold;
+
+p::after {
+    content:"bye!";
+    color:green;
+    font-weight:lighter;
 }
 
-.bold {
-    font-weight: bold;
-}
-
-
-div a {
-    background-color: pink;
-    padding: 20px;
-}
-
-a > h1 {
-    background-color: blueviolet;
-    color:whitesmoke;
-}
-
-a+a {
-    background-color: aqua;
+p::selection {
+    background-color: blanchedalmond;
+    color:white;
 }
