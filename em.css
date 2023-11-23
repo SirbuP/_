@@ -1,24 +1,36 @@
-p:hover {
-    color:yellowgreen;
-    font-weight: lighter;
+.visible {
+    visibility: visible;
+
+}
+.hidden {
+    visibility: hidden;
 
 }
 
-p::before { 
-    content:"hi!";
-    color:palevioletred;
+.op_1 {
+    opacity: 1;
+}
+
+.op_0 {
+    opacity: 0;
+
+}
+.op_05 {
+    opacity: 0.5;
+}
+
+.none {
+    display:none;
     font-weight: bolder;
-
-
 }
 
-p::after {
-    content:"bye!";
-    color:green;
-    font-weight:lighter;
+.block {
+    display:grid;
+    font-weight: lighter;
 }
 
-p::selection {
-    background-color: blanchedalmond;
-    color:white;
+h3 {
+    background-color: chocolate;
+    text-align: right;
 }
+
