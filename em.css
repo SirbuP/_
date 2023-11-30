@@ -1,39 +1,25 @@
-*{
-    padding: 0;
-    margin: 0;
+@keyframes my-animation { 
+    from {
+        background-color: rebeccapurple;
+    }
+    to {
+         background-color: blue;
+
+    }
+    
 }
 
-.nav{
-    background-color: rgb(231, 231, 243);
-    height: 25px;
-    padding: 10px;
-    text-align: center;
-    margin-top: 15px;
-
-
-}
-
-.banner{
-    background-color: aquamarine;
-    height: 45px;
-     
+body{
+    animation: my animation 5s infinite alternate ;
 
 }
 
-.content{
-    background-color: aliceblue;
-    height: 450px;
-}
-
-.footer{
-    background-color: aqua;
-    height: 250px;
-    height: 150px;
+img {
+    width: 500px;
+    transition : 0.5s;
 
 }
 
-img{
-    width: 50%;
- filter: brightness(2) 
-
+img:active {
+    width: 800px;
 }
