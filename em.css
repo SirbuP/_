@@ -1,25 +1,46 @@
-@keyframes my-animation { 
-    from {
-        background-color: rebeccapurple;
-    }
-    to {
-         background-color: blue;
-
-    }
-    
-}
-
-body{
-    animation: my-animation 5s infinite alternate ;
-
-}
-
-img {
-    width: 500px;
-    transition : 0.5s;
-
-}
-
-img:active {
-    width: 800px;
-}
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 20px;
+  }
+  
+  section {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h2 {
+    color: #333;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 5px;
+  }
+  
+  .project {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+  }
+  
