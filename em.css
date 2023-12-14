@@ -1,4 +1,21 @@
-body {
+@keyframes my-animation {
+    0% {
+        background-color: #f4f4f4;
+
+    }
+    50%{
+        background-color: aquamarine;
+    }
+    100% {
+        background-color: #f4f4f4;
+    }
+ }
+ 
+ 
+ body {
+
+    animation: my-animation 3s;
+    animation-iteration-count: infinite;
     font-family: 'Arial', sans-serif;
     background-color: #f4f4f4;
     margin: 0;
@@ -25,7 +42,10 @@ body {
       color:aqua;
       font-weight:bold ; 
   }
-
+ p:hover {
+    color: chocolate;
+    font-weight: bolder;
+ }
 ul {
     list-style-type: none;
     padding: 0;
@@ -47,4 +67,3 @@ ul {
     background-color: #333;
     color: white;
   }
-  
