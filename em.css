@@ -23,7 +23,9 @@ body {
   }
   h2:hover {
       color:aqua;
-      font-weight:bold ;
+      font-weight:bold ; 
+  }
+
 ul {
     list-style-type: none;
     padding: 0;
