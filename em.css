@@ -21,8 +21,10 @@ body {
   h2 {
     color: #333;
   }
-  
-  ul {
+  h2:hover {
+      color:aqua;
+      font-weight:bold ;
+ul {
     list-style-type: none;
     padding: 0;
   }
