@@ -1,69 +1,77 @@
 @keyframes my-animation {
-    0% {
-        background-color: #f4f4f4;
+  25%{
+      background-color: #A3CFA7;
+  }
+  50%{
+    background-color: #b0d8e3;
 
-    }
-    50%{
-        background-color: aquamarine;
-    }
-    100% {
-        background-color: #f4f4f4;
-    }
- }
- 
- 
- body {
+  }
+  75% {
+    background-color:#F7DCEC;
+  }
+  100% {
+      background-color:#FFF1DE ;
+  }
+}
 
-    animation: my-animation 3s;
-    animation-iteration-count: infinite;
-    font-family: 'Arial', sans-serif;
-    background-color: #f4f4f4;
-    margin: 0;
-    padding: 0;
-  }
-  
-  header {
-    text-align: center;
-    background-color: #333;
-    color: white;
-    padding: 20px;
-  }
-  
-  section {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 20px;
-  }
-  
-  h2 {
-    color: #333;
-  }
-  h2:hover {
-      color:aqua;
-      font-weight:bold ; 
-  }
- p:hover {
-    color: chocolate;
-    font-weight: bolder;
- }
+
+body {
+
+  animation: my-animation 3s;
+  animation-iteration-count: infinite;
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  text-align: center;
+  background-color: #333;
+  color: white;
+  padding: 20px;
+}
+
+section {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h2 {
+  color: #333;
+}
+h2:hover {
+    color:rgb(255, 208, 0);
+    font-weight:bold ; 
+}
+p:hover {
+  color: chocolate;
+  font-weight: bolder;
+}
+
+h3:hover {
+  color:rgb(255, 208, 0);
+  font-weight: bolder;
+}
 ul {
-    list-style-type: none;
-    padding: 0;
-  }
-  
-  li {
-    margin-bottom: 5px;
-  }
-  
-  .project {
-    border: 1px solid #ddd;
-    padding: 10px;
-    margin-bottom: 10px;
-  }
-  
-  footer {
-    text-align: center;
-    padding: 10px;
-    background-color: #333;
-    color: white;
-  }
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 5px;
+}
+
+.project {
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #333;
+  color: white;
+}
